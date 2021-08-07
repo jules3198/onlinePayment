@@ -8,9 +8,21 @@ const UserSchema = new Schema({
     username: {type: String},
     password: {type: String},
     confirmed: {type: Boolean},
-    roles: {type: [String]}
-  });
-  
-  const User = conn.model("User", UserSchema);
-  
-  module.exports = User;
+    roles: {type: [String]},
+
+    createdAt : {
+        type: Date,
+        required: true,
+        default: Date.now
+    },
+
+    updatedAt : {
+        type: Date,
+        required: false,
+        default: Date.now
+    }
+});
+
+const User = conn.model("User", UserSchema);
+
+module.exports = User;

@@ -3,14 +3,37 @@ const conn = require("../../lib/mongo");
 
 const TransactionSchema = new Schema({
     _id: Number,
-    marchant_id: Number,
-    facturationAdresse: JSON,
-    deliveryAdresse: JSON,
-    cart: String,
-    currency: Number,
+    merchant_id: {
+        type : Number, ref: "Merchant"
+    },
+    libelle  : String,
+    facturationAdresse: String,
+    deliveryAdresse: String,
+    cart: Array,
+    currency: String,
     amount: Number,
     consumer: String,
-    status: Array,
+    status: {
+        type : Array,
+        required : false
+    },
+    nbRepayment : {
+        type : "Number",
+        required : false,
+        default: 0
+    },
+    createdAt : {
+        type: Date,
+        required: true,
+        default: Date.now
+    },
+
+    updatedAt : {
+        type: Date,
+        required: false,
+        default: Date.now
+    }
+
 });
 
 const Transaction = conn.model("Transaction", TransactionSchema);

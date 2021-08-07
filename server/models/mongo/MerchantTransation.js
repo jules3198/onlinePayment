@@ -1,5 +1,5 @@
 const { Schema } = require("mongoose");
-const connection = require("../../lib/sequelize");
+const conn = require("../../lib/mongo");
 
 const MerchantTransactionSchema = new Schema(
     {
@@ -7,13 +7,21 @@ const MerchantTransactionSchema = new Schema(
         societyName: String,
         transactionId: Number,
         merchantId: Number,
-        createdAt: Date,
-        Transaction: Array
-    },
-    {
-        sequelize: connection,
-        modelName: "MerchantTransaction",
+        Transaction: Array,
+        createdAt : {
+            type: Date,
+            required: true,
+            default: Date.now
+        },
+
+        updatedAt : {
+            type: Date,
+            required: false,
+            default: Date.now
+        }
     }
 );
+
+const MerchantTransaction = conn.model("MerchantTransaction", MerchantTransactionSchema);
 
 module.exports = MerchantTransaction;
