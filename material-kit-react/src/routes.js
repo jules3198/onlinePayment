@@ -7,6 +7,7 @@ import Dashboard from 'src/pages/Dashboard';
 import Login from 'src/pages/Login';
 import NotFound from 'src/pages/NotFound';
 import Register from 'src/pages/Register';
+import TransactionsByMerchant from "./components/transactions/TransactionsByMerchant";
 
 const routes = [
   {
@@ -16,6 +17,7 @@ const routes = [
       { path: 'account', element: <Account /> },
       { path: 'customers', element: <CustomerList /> },
       { path: 'dashboard', element: <Dashboard /> },
+      { path: 'transactions_merchant', element: <TransactionsByMerchant /> },
       { path: '*', element: <Navigate to="/404" /> }
     ]
   },

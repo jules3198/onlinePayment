@@ -35,6 +35,12 @@ const items = [
     title: 'Merchants'
   },
   {
+    href: '/app/transactions_merchant',
+    icon: UsersIcon,
+    title: 'Transactions'
+  },
+
+  {
     href: '/app/account',
     icon: UserIcon,
     title: 'Account'

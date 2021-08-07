@@ -15,6 +15,17 @@ const MerchantSchema = new Schema({
   credentialID: Number,
   UserId: Number,
   transactions: {type: Array},
+  createdAt : {
+    type: Date,
+    required: true,
+    default: Date.now
+  },
+
+  updatedAt : {
+    type: Date,
+    required: false,
+    default: Date.now
+  }
 });
 
 const Merchant = conn.model("Merchant", MerchantSchema);

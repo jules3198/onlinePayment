@@ -14,10 +14,20 @@ const ExchangeRateSchema = new Schema({
         type : Object,
     },
 
-    createdAt : Date,
-
     idTransaction : {
         type : Schema.Types.ObjectId, ref: "Transaction"
+    },
+
+    createdAt : {
+        type: Date,
+        required: true,
+        default: Date.now
+    },
+
+    updatedAt : {
+        type: Date,
+        required: false,
+        default: Date.now
     }
 });
 
