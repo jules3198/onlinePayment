@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="790cee43-fa95-4a64-b180-b6eb3eb158d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/models/sequelize/Operation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/models/sequelize/Transaction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/TransactionRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Body.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Body.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ButtonGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ButtonGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/lib/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/lib/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/sequelize/Merchant.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/sequelize/Merchant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/models/sequelize/ValidAccountByAdmin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/AdminRouter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/MerchantRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/MerchantRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/UserRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/UserRouter.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ur4sRsMvEybXwCJXXCsOOH1aJG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="790cee43-fa95-4a64-b180-b6eb3eb158d4" name="Default Changelist" comment="" />
+      <created>1625410581329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625410581329</updated>
+      <workItem from="1625410585100" duration="41000" />
+      <workItem from="1625410637388" duration="1206000" />
+<<<<<<< HEAD
+      <workItem from="1625416355273" duration="13627000" />
+      <workItem from="1625736954030" duration="595000" />
+      <workItem from="1626422135224" duration="616000" />
+=======
+      <workItem from="1625416355273" duration="20101000" />
+>>>>>>> 5fd306d7aa9948f544452da6efa3c71dd1ef943b
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
